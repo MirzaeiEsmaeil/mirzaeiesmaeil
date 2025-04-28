@@ -287,7 +287,7 @@
             <p class="text-xl font-bold">Software & Web Developer</p>
           </div>
           <div>
-            <a href="/pdf/Lebenslauf-IT.pdf" download
+            <a href="/Lebenslauf.pdf" download
               class="bg-green-600 text-gray-800 font-bold px-5 py-2 rounded-full hover:bg-green-700 transition duration-300 ease-in-out">
               Lebenslauf Herunterladen
             </a>
@@ -428,7 +428,25 @@
   </footer>
 
   <!-- Scripts -->
-  <script src="/index.js"></script>
+  <script>
+    const modal = document.getElementById("modal");
+    const openBtn = document.getElementById("openModal");
+    const closeBtn = document.getElementById("closeModal");
+    const form = modal.querySelector("form");
+
+    openBtn.onclick = () => {
+      form.reset();
+      modal.classList.remove("hidden");
+    };
+
+    closeBtn.onclick = () => modal.classList.add("hidden");
+
+    window.onclick = (e) => {
+      if (e.target === modal) {
+        modal.classList.add("hidden");
+      }
+    };
+  </script>
 </body>
 
 </html>
