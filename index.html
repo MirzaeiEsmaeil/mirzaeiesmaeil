@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Esmaeil - Fachinformatiker</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded" rel="stylesheet" />
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-gray-900 text-white font-['Roboto']">
+
+  <!-- Header -->
+  <header class="bg-gray-800 shadow-md">
+    <div class="container mx-auto flex items-center justify-between px-4 py-4">
+      <h1 class="text-2xl font-bold">Software & Web - developer</h1>
+      <input type="checkbox" id="toggle_button" class="hidden peer" />
+      <label for="toggle_button" class="md:hidden cursor-pointer text-white text-3xl">&#9776;</label>
+      <nav class="hidden peer-checked:block md:block">
+        <ul class="flex flex-col md:flex-row gap-4">
+          <li><a href="#about" class="hover:text-green-400 transition duration-[450ms] ease-in-out">Über mich</a></li>
+          <li><a href="#services"
+              class="hover:text-green-400 transition duration-[450ms] ease-in-out">Dienstleistungen</a></li>
+          <li>
+            <button id="openModal" class="text-white hover:text-green-400 transition duration-[450ms] ease-in-out">
+              Contact
+            </button>
+          </li>
+          <li><a href="#lebenslauf" class="hover:text-green-400 transition duration-[450ms] ease-in-out">Lebenslauf</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Über mich -->
+  <section id="about" class="container mx-auto px-4 py-24 shadow-md">
+    <div class="flex flex-col md:flex-row gap-8 items-center">
+      <img src="images/Esmaeil.jpg" alt="Esmaeil Profilbild"
+        class="w-64 h-82 transform scale-x-[-1] rounded-full shadow-lg object-cover" />
+      <div>
+        <h2 class="text-3xl font-bold mb-4">Über mich</h2>
+        <p class="text-gray-300 mb-3">
+          Mein Name ist Esmaeil Mirzaei. Im Jahr 2013 begann ich mein Studium im Bereich Informatik (Information
+          Technology) an der Universität in Arak, Iran. Nach drei Semestern musste ich mein Studium aufgrund der
+          politischen und gesellschaftlichen Unsicherheiten im Iran leider abbrechen. In der Hoffnung auf ein sicheres
+          und entwicklungsreiches Leben zog ich nach Deutschland.
+        </p>
+        <p class="text-gray-300 mb-3">
+          Hier konnte ich nach einigen Jahren meinen beruflichen Weg fortsetzen und absolvierte erfolgreich eine
+          Umschulung zum Fachinformatiker für Anwendungsentwicklung. Diese schloss ich mit einem Gesamtergebnis von 71
+          Punkten und dem anerkannten IHK-Zertifikat aus Hamburg ab.
+        </p>
+        <p class="text-gray-300 mb-3">
+          Ich stehe nun am Beginn meiner beruflichen Laufbahn als Softwareentwickler und verfolge meinen Weg mit großer
+          Leidenschaft und Lernbereitschaft. Täglich setze ich mich an meinen Computer, um neue Technologien,
+          Programmiersprachen und Entwicklungsmethoden zu erlernen und anzuwenden. Das Programmieren ist für mich nicht
+          nur ein Beruf, sondern auch ein Hobby und eine Quelle ständiger Weiterentwicklung.
+        </p>
+        <p class="text-gray-300 mb-3">
+          Mit Neugier, Ausdauer und Begeisterung strebe ich danach, mein Wissen kontinuierlich zu erweitern und
+          innovative Lösungen zu entwickeln.
+        </p>
+        <p class="text-gray-300 mb-3">
+          Ich sitze gerne am Computer, lerne ständig neue Technologien kennen und verbessere meine Fähigkeiten, um
+          moderne und effiziente Webanwendungen zu erstellen.
+        </p>
+        <p class="text-gray-300">
+          Meine Leidenschaft liegt in der Full-Stack-Entwicklung mit Fokus auf Laravel, Tailwind und modernen
+          Webtechnologien.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Dienstleistungen -->
+  <section id="services" class="bg-gray-800 py-24 shadow-md">
+    <div class="container mx-auto px-4">
+      <h2 class="text-3xl font-bold mb-8 text-center">Dienstleistungen</h2>
+      <div class="grid md:grid-cols-3 gap-6">
+        <div class="bg-gray-700 p-6 rounded-xl shadow-lg text-center">
+          <span class="material-symbols-rounded text-5xl text-green-400 mb-4">code</span>
+          <h3 class="text-xl font-semibold mb-2">Webseiten-Erstellung & Webentwicklung</h3>
+          <p class="text-gray-300 pb-2">
+            ✔ Erstellung moderner Webseiten für Unternehmen, Selbstständige und kleine Projekte
+          </p>
+          <p class="text-gray-300 pb-2">
+            ✔ Entwicklung individueller Webanwendungen (z. B. Buchungssysteme, Kundendatenbanken)
+          </p>
+          <p class="text-gray-300 pb-2">
+            ✔ Optimierung bestehender Webseiten (Design, Geschwindigkeit, Sicherheit)
+          </p>
+        </div>
+        <div class="bg-gray-700 p-6 rounded-xl shadow-lg text-center">
+          <span class="material-symbols-rounded text-5xl text-green-400 mb-4">dns</span>
+          <h3 class="text-xl font-semibold mb-2">Softwareentwicklung & Automatisierung</h3>
+          <p class="text-gray-300 pb-2">
+            ✔ Entwicklung von individuellen Programmen oder Skripten (z. B. mit Python, PHP, Java)
+          </p>
+          <p class="text-gray-300 pb-2">
+            ✔ Automatisierung von Prozessen (Datenverarbeitung, Berichte, Backup-Systeme)
+          </p>
+          <p class="text-gray-300 pb-2">
+            ✔ Datenbankverwaltung und -optimierung (MySQL, SQLite)
+          </p>
+        </div>
+        <div class="bg-gray-700 p-6 rounded-xl shadow-lg text-center">
+          <span class="material-symbols-rounded text-5xl text-green-400 mb-4">school</span>
+          <h3 class="text-xl font-semibold mb-2">Hosting & Wartung</h3>
+          <p class="text-gray-300 pb-2">
+            ✔ Bereitstellung und Verwaltung von Webhosting für Webseiten und Anwendungen
+          </p>
+          <p class="text-gray-300 pb-2">
+            ✔ Regelmäßige Wartung und Sicherheitsupdates für Server und Webseiten
+          </p>
+          <p class="text-gray-300 pb-2">
+            ✔ Überwachung der Systeme und schnelle Fehlerbehebung bei Ausfällen
+          </p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- lebenslauf -->
+
+  <section id="lebenslauf" class="max-w-7xl mx-auto p-6 grid grid-cols-1 md:grid-cols-3 gap-6 shadow-md">
+
+    <!-- Linke Spalte -->
+
+    <div class="space-y-6">
+
+      <div
+        class="flex flex-col md:flex-row items-center justify-between w-full bg-gray-700 shadow rounded-lg p-6 md:hidden">
+        <div class="mb-4 ">
+          <h1 class="text-3xl font-bold py-2 text-center">Esmaeil Mirzaei</h1>
+          <p class="text-xl font-bold">Software & Web Developer</p>
+        </div>
+        <div>
+          <a href="/pdf/Lebenslauf-IT.pdf" download
+            class="bg-green-600 text-gray-800 font-bold px-5 py-2 rounded-full hover:bg-green-700 transition duration-300 ease-in-out">
+            PDF Herunterladen
+          </a>
+        </div>
+      </div>
+
+      <!-- Kontakt -->
+
+      <div class="bg-gray-700 shadow rounded-lg p-4">
+        <div class="flex justify-center">
+          <img src="images/Esmaeil2.jpg" alt="Profilbild"
+            class="rounded-full w-64 h-64 object-cover border border-green-600">
+        </div>
+        <h2 class="text-xl font-bold mb-4">Kontakt</h2>
+        <p><strong>Telefon:</strong> +49 1573 5773712</p>
+        <p><strong>E-Mail:</strong> mirzaeiesmaeil@yahoo.com</p>
+        <p><strong>Github:</strong> https://github.com/MirzaeiEsmaeil</p>
+      </div>
+
+      <!-- Programmiersprache -->
+      <div class="bg-gray-700 p-6 rounded-lg shadow">
+        <h3 class="text-xl font-bold mb-4">Programmiersprache</h3>
+        <div class="space-y-2">
+          <div>
+            <label>PHP</label>
+            <div class="w-full bg-gray-400 rounded-full h-3">
+              <div class="bg-green-700 h-3 rounded-full" style="width: 80%"></div>
+            </div>
+          </div>
+          <div>
+            <label>C</label>
+            <div class="w-full bg-gray-400 rounded-full h-3">
+              <div class="bg-green-700 h-3 rounded-full" style="width: 50%"></div>
+            </div>
+          </div>
+          <div>
+            <label>C++</label>
+            <div class="w-full bg-gray-400 rounded-full h-3">
+              <div class="bg-green-700 h-3 rounded-full" style="width: 70%"></div>
+            </div>
+          </div>
+          <div>
+            <label>Java</label>
+            <div class="w-full bg-gray-400 rounded-full h-3">
+              <div class="bg-green-700 h-3 rounded-full" style="width: 40%"></div>
+            </div>
+          </div>
+          <div>
+            <label>Python</label>
+            <div class="w-full bg-gray-400 rounded-full h-3">
+              <div class="bg-green-700 h-3 rounded-full" style="width: 50%"></div>
+            </div>
+          </div>
+          <div>
+            <label>HTML</label>
+            <div class="w-full bg-gray-400 rounded-full h-3">
+              <div class="bg-green-700 h-3 rounded-full" style="width: 80%"></div>
+            </div>
+          </div>
+          <div>
+            <label>CSS</label>
+            <div class="w-full bg-gray-400 rounded-full h-3">
+              <div class="bg-green-700 h-3 rounded-full" style="width: 60%"></div>
+            </div>
+          </div>
+          <div>
+            <label>SQL</label>
+            <div class="w-full bg-gray-400 rounded-full h-3">
+              <div class="bg-green-700 h-3 rounded-full" style="width: 90%"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Fähigkeiten -->
+      <div class="bg-gray-700 p-6 rounded-lg shadow">
+        <h3 class="text-xl font-bold mb-4">Fähigkeiten</h3>
+        <div class="space-y-2 text-gray-300">
+          <div>
+            <label>Web design</label>
+            <div class="w-full bg-gray-400 rounded-full h-3">
+              <div class="bg-green-700 h-3 rounded-full" style="width: 80%"></div>
+            </div>
+          </div>
+          <div>
+            <label>Softwareentwicklung</label>
+            <div class="w-full bg-gray-400 rounded-full h-3">
+              <div class="bg-green-700 h-3 rounded-full" style="width: 75%"></div>
+            </div>
+          </div>
+          <div>
+            <label>Graphic design</label>
+            <div class="w-full bg-gray-400 rounded-full h-3">
+              <div class="bg-green-700 h-3 rounded-full" style="width: 70%"></div>
+            </div>
+          </div>
+          <div>
+            <label>Database</label>
+            <div class="w-full bg-gray-400 rounded-full h-3">
+              <div class="bg-green-700 h-3 rounded-full" style="width: 60%"></div>
+            </div>
+          </div>
+          <div>
+            <label>Network</label>
+            <div class="w-full bg-gray-400 rounded-full h-3">
+              <div class="bg-green-700 h-3 rounded-full" style="width: 65%"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Sprachkenntnisse -->
+      <div class="bg-gray-700 shadow rounded-lg p-4">
+        <h2 class="text-xl font-bold mb-4">Sprachkenntnisse</h2>
+        <ul class="space-y-2">
+          <li>Persisch (Muttersprache)</li>
+          <li>Deutsch (Level B2)</li>
+          <li>Englisch (Level B1)</li>
+        </ul>
+      </div>
+
+      <!-- Hobbys -->
+      <div class="bg-gray-700 shadow rounded-lg p-4">
+        <h2 class="text-xl font-bold mb-4">Hobbys</h2>
+        <div class="flex flex-wrap gap-2 text-2xl">
+          <span>🚗</span>
+          <span>🎥</span>
+          <span>🎵</span>
+          <span>💻</span>
+          <span>🖥️</span>
+          <span>🎮</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Rechte Spalte -->
+    <div class="md:col-span-2 space-y-6">
+
+      <!-- Esmaeil Mirzaei -->
+      <div class=" hidden md:block mt-6">
+        <div class="flex flex-col md:flex-row items-center justify-between w-full bg-gray-700 shadow rounded-lg p-6">
+          <div class="mb-4">
+            <h1 class="text-3xl font-bold py-2">Esmaeil Mirzaei</h1>
+            <p class="text-xl font-bold">Software & Web Developer</p>
+          </div>
+          <div>
+            <a href="/pdf/Lebenslauf-IT.pdf" download
+              class="bg-green-600 text-gray-800 font-bold px-5 py-2 rounded-full hover:bg-green-700 transition duration-300 ease-in-out">
+              Lebenslauf Herunterladen
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Beruflicher Werdegang -->
+      <div class="bg-gray-700 shadow rounded-lg p-6">
+        <h2 class="text-2xl font-bold mb-8">Beruflicher Werdegang</h2>
+        <ul class="space-y-4 text-gray-300">
+          <li class="flex ">
+            <span class="font-bold whitespace-nowrap">11/2021 - 01/2022:</span>
+            <span class="ml-8">Fahrer, Hermes</span>
+          </li>
+          <li class="flex">
+            <span class="font-bold whitespace-nowrap">07/2020 - 07/2021:</span>
+            <span class="ml-8">Elektrohelfer, Torsten Zelk GmbH</span>
+          </li>
+          <li class="flex">
+            <span class="font-bold whitespace-nowrap">01/2020 - 06/2020:</span>
+            <span class="ml-8">Rezeptionist, Novum Hospitality</span>
+          </li>
+          <li class="flex">
+            <span class="font-bold whitespace-nowrap">02/2013 - 06/2015:</span>
+            <span class="ml-8">Kundenservice, Kheirabadi Computerservice</span>
+          </li>
+          <li class="flex">
+            <span class="font-bold whitespace-nowrap">04/2009 - 12/2012:</span>
+            <span class="ml-8">Technischer Helfer, Morghparvar Geflügelfarm</span>
+          </li>
+          <li class="flex">
+            <span class="font-bold whitespace-nowrap">04/2006 - 03/2009:</span>
+            <span class="ml-8">Techniker, Soltani Landwirtschaftsbetrieb</span>
+          </li>
+        </ul>
+      </div>
+
+      <!-- Weiterbildungen & Praktika -->
+      <div class="bg-gray-700 shadow rounded-lg p-6">
+        <h2 class="text-2xl font-bold mb-8">Weiterbildungen & Praktika</h2>
+        <ul class="space-y-4 text-gray-300">
+          <li class="flex ">
+            <span class="font-bold whitespace-nowrap">02.2024 - 01/2025:</span>
+            <span class="ml-8">Fachinformatiker Anwendungsentwicklung, BBQ Hamburg</span>
+          </li>
+          <li class="flex">
+            <span class="font-bold whitespace-nowrap">02.2023 - 01/2024:</span>
+            <span class="ml-8">Fachinformatiker Anwendungsentwicklung, Quix GmbH</span>
+          </li>
+          <li class="flex">
+            <span class="font-bold whitespace-nowrap">02.2022 - 01/2023:</span>
+            <span class="ml-8">Fachinformatiker Anwendungsentwicklung, BBQ Hamburg</span>
+          </li>
+          <li class="flex">
+            <span class="font-bold whitespace-nowrap">02/2019 - 11/2019:</span>
+            <span class="ml-8">EQ-Praktikum, MAXEDV Hamburg</span>
+          </li>
+          <li class="flex">
+            <span class="font-bold whitespace-nowrap">04/2017 - 07/2017:</span>
+            <span class="ml-8">Integrationskurs B2, Agentur der Wirtschaft</span>
+          </li>
+          <li class="flex">
+            <span class="font-bold whitespace-nowrap">06/2016 - 12/2016:</span>
+            <span class="ml-8">Integrationskurs B1, IBH Hamburg</span>
+          </li>
+        </ul>
+      </div>
+
+      <!-- Weiterbildungen & Praktika -->
+      <div class="bg-gray-700 shadow rounded-lg p-6">
+        <h2 class="text-2xl font-semibold mb-8">Bildungsweg</h2>
+        <ul class="space-y-4 text-gray-300">
+          <li class="flex ">
+            <span class="font-bold whitespace-nowrap">09/2014 - 06/2015:</span>
+            <span class="ml-8">Informationstechnologie, Payam Noor Uni Arak (Arak, Iran)</span>
+          </li>
+          <li class="flex">
+            <span class="font-bold whitespace-nowrap">09/2013 - 06/2014:</span>
+            <span class="ml-8">Mathematik & Physik, Doktor Hesabi College (Arak, Iran)</span>
+          </li>
+          <li class="flex">
+            <span class="font-bold whitespace-nowrap">09/2010 - 06/2013:</span>
+            <span class="ml-8">Parsian Gymnasium, Allgemeine Hochschulreife (Arak, Iran)</span>
+          </li>
+          <li class="flex">
+            <span class="font-bold whitespace-nowrap">09/1999 - 06/2010:</span>
+            <span class="ml-8">Vahdat Aman-Abad Realschule (Arak, Iran)</span>
+          </li>
+        </ul>
+      </div>
+
+
+
+    </div>
+  </section>
+
+  <!-- Contacts -->
+  <section id="hobbies" class="bg-gray-800 py-12">
+    <div id="modal" class="fixed inset-0 hidden z-50 flex items-center justify-center bg-black bg-opacity-50">
+
+      <!-- Modal-Inhalt -->
+      <div class="bg-gray-800 rounded-xl shadow-lg w-11/12 max-w-md p-6 relative">
+
+        <!-- Schließen Button -->
+        <button id="closeModal" class="absolute top-3 right-6 text-gray-400 text-xl hover:text-white">&times;
+        </button>
+
+        <h2 class="text-xl font-semibold mb-4">Kontaktformular</h2>
+
+        <form action="https://formsubmit.co/essiman12@yahoo.com" method="POST" class="space-y-4">
+          <div>
+            <label class="block mb-1 text-sm">Name</label>
+            <input type="text" name="name" required
+              class="bg-gray-200 text-black w-full border border-gray-400 px-3 py-2 rounded focus:outline-none focus:ring focus:border-blue-300">
+          </div>
+          <div>
+            <label class="block mb-1 text-sm">E-Mail</label>
+            <input type="email" name="email" required
+              class="bg-gray-200 text-black w-full border px-3 py-2 rounded focus:outline-none focus:ring focus:border-blue-300">
+          </div>
+          <div>
+            <label class="block mb-1 text-sm">Nachricht</label>
+            <textarea name="message" rows="4" required
+              class="bg-gray-200 text-black w-full border px-3 py-2 rounded focus:outline-none focus:ring focus:border-blue-300"></textarea>
+          </div>
+          <button type="submit" class="bg-green-600 text-white px-4 py-2 rounded hover:bg-green-700 transition">
+            Senden
+          </button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-gray-900 py-6 text-center text-sm text-gray-400">
+    © 2025 Esmaeil - Alle Rechte vorbehalten.
+  </footer>
+
+  <!-- Scripts -->
+  <script src="/index.js"></script>
+</body>
+
+</html>
