@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Lebenslauf</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- Header -->
+  <header class="header">
+    <h1 class="htext">Web & Software developer</h1>
+    
+    <nav>
+      <ul class="nav__links">
+        <li><a href="#about">about</a></li>
+        <li><a href="#services">services</a></li>
+        <li><a href="#projects">projects</a></li>
+        <li><a href="#cv">cv</a></li>
+        <li><a href="#contact">contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Über mich -->
+  <section class="about" >
+      <div class="profilbild">
+        <img src="images/Esmaeil.jpg" alt="Esmaeil Profilbild"/>
+      </div>
+      <div class="profiltext">
+        <h2>Über mich</h2>
+        <p>
+          Mein Name ist Esmaeil Mirzaei. Ich bin ein leidenschaftlicher Fachinformatiker für Anwendungsentwicklung mit fundierten Kenntnissen in der Full-Stack-Webentwicklung. Mein Schwerpunkt liegt auf der Entwicklung moderner, benutzerfreundlicher Webanwendungen mit Laravel, PHP, React, Tailwind CSS, Bootstrap, HTML, CSS und JavaScript. Zusätzlich bringe ich Erfahrung in C, C++, Java und Python mit.
+        </p>
+        <p>
+          Im Umgang mit relationalen Datenbanken wie MySQL sowie beim Aufbau von RESTful APIs und serverseitigen Architekturen bewege ich mich sicher. Auch die Arbeit mit Linux-Servern, Git-Versionierung und der Einsatz von Tools wie Docker und Composer gehören zu meinem Alltag.
+        </p>
+        <p>
+          Ich arbeite strukturiert, lösungsorientiert und mit einem hohen Qualitätsanspruch. Dabei kombiniere ich technisches Wissen mit kreativen Ansätzen, um zuverlässige und effiziente Anwendungen zu entwickeln. Besonders wichtig sind mir saubere Code-Strukturen, gute Dokumentation sowie klare und verständliche Benutzeroberflächen.
+        </p>
+        <p>
+          Ständige Weiterbildung ist für mich selbstverständlich - ich beschäftige mich regelmäßig mit neuen Technologien, Frameworks und Best Practices in der Softwareentwicklung. Ob im Backend oder Frontend, ich strebe danach, mein Wissen kontinuierlich zu erweitern und innovative Lösungen umzusetzen.
+        </p>
+        <p>
+          Mein Ziel ist es, als Entwickler nicht nur funktionierende Anwendungen zu erstellen, sondern digitale Werkzeuge zu gestalten, die echte Mehrwerte schaffen und den Alltag von Nutzerinnen und Nutzern vereinfachen.
+        </p>
+      </div>
+  </section>
+
+  <!-- Dienstleistungen -->
+  <section id="services">
+    <div class="services">
+      <h2>Dienstleistungen</h2>
+      <div class="service__container">
+        <div class="servicebox">
+          <h3>Webseiten-Erstellung & Webentwicklung</h3>
+          <p>
+            ✔ Erstellung moderner Webseiten für Unternehmen, Selbstständige und kleine Projekte
+          </p>
+          <p>
+            ✔ Entwicklung individueller Webanwendungen (z. B. Buchungssysteme, Kundendatenbanken)
+          </p>
+          <p>
+            ✔ Optimierung bestehender Webseiten (Design, Geschwindigkeit, Sicherheit)
+          </p>
+        </div>
+        <div class="servicebox">
+          <h3>Softwareentwicklung & Automatisierung</h3>
+          <p>
+            ✔ Entwicklung von individuellen Programmen oder Skripten (z. B. mit Python, PHP, React)
+          </p>
+          <p>
+            ✔ Automatisierung von Prozessen (Datenverarbeitung, Berichte, Backup-Systeme)
+          </p>
+          <p>
+            ✔ Datenbankverwaltung und -optimierung (MySQL, SQLite)
+          </p>
+        </div>
+        <div class="servicebox">
+          <h3>Hosting & Wartung</h3>
+          <p>
+            ✔ Bereitstellung und Verwaltung von Webhosting für Webseiten und Anwendungen
+          </p>
+          <p>
+            ✔ Regelmäßige Wartung und Sicherheitsupdates für Server und Webseiten
+          </p>
+          <p>
+            ✔ Überwachung der Systeme und schnelle Fehlerbehebung bei Ausfällen
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+  <!-- Projekt -->
+  <section id="projects" >
+    <div class="project">
+      <h2>Projekt</h2>
+      <div>
+        <div class="project__container">
+          <h3>Kunden,Termin & Auftragverwaltungssystem</h3>
+          <p>
+            Beim Aufruf der Anwendung landet man zunächst auf der öffentlichen Startseite (Frontend). Dort werden grundlegende Informationen über das Reinigungsunternehmen Essi GmbH angezeigt - zum Beispiel Dienstleistungen, Kontaktmöglichkeiten oder ein kurzer Überblick über das Unternehmen.
+          </p>
+          <p>
+            Nach der Anmeldung gelangt man in den geschützten Verwaltungsbereich (Backend). Hier können Kunden-, Termin- und Auftragsdaten effizient verwaltet werden. Besonders hervorzuheben ist die Echtzeit-Anzeige der Termine, welche den Nutzer sofort über bevorstehende oder verpasste Termine informiert - farblich gekennzeichnet zur besseren Übersicht.
+          </p>
+          <p>
+            Um sich anzumelden und den vollen Funktionsumfang zu testen, können folgende Zugangsdaten verwendet werden
+          </p>
+          <p>
+            E-Mail: essi@gmail.com
+          </p>
+          <p>
+            Passwort: Essi1234
+          </p>
+          <a href="https://essi.ddns.net" target="_blank" rel="noopener noreferrer">Praktische Projekte</a>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- lebenslauf -->
+
+  <section id="cv">
+
+    <!-- Linke Spalte -->
+
+    <div class="containers">
+    <div >
+      <div>
+        <div>
+          <h1>Esmaeil Mirzaei</h1>
+          <p>Software & Web Developer</p>
+        </div>
+        <div>
+          <a href="Lebenslauf.pdf" target="_blank" rel="noopener noreferrer">show PDF</a>
+        </div>
+      </div>
+
+      <!-- Kontakt -->
+
+      <div>
+        <div class="lebenslauf-img">
+          <img src="images/Esmaeil2.jpg" alt="Profilbild">
+        </div>
+        <h2>Kontakt</h2>
+        <p><strong>Telefon:</strong> +49 1573 5773712</p>
+        <p><strong>E-Mail:</strong> mirzaeiesmaeil@yahoo.com</p>
+        <p><strong>Github:</strong> https://github.com/MirzaeiEsmaeil</p>
+      </div>
+
+      <!-- Programmiersprache -->
+      <div>
+        <h3>Programmiersprache</h3>
+        <div>
+          <div>
+            <label>PHP</label>
+            <div>
+              <div></div>
+            </div>
+          </div>
+          <div>
+            <label>C</label>
+            <div>
+              <div></div>
+            </div>
+          </div>
+          <div>
+            <label>C++</label>
+            <div>
+              <div></div>
+            </div>
+          </div>
+          <div>
+            <label>Java</label>
+            <div>
+              <div></div>
+            </div>
+          </div>
+          <div>
+            <label>Python</label>
+            <div>
+              <div></div>
+            </div>
+          </div>
+          <div>
+            <label>React.js</label>
+            <div>
+              <div></div>
+            </div>
+          </div>
+          <div>
+            <label>HTML</label>
+            <div>
+              <div></div>
+            </div>
+          </div>
+          <div>
+            <label>CSS</label>
+            <div>
+              <div></div>
+            </div>
+          </div>
+          <div>
+            <label>SQL</label>
+            <div>
+              <div></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Fähigkeiten -->
+      <div>
+        <h3>Fähigkeiten</h3>
+        <div>
+          <div>
+            <label>Web design</label>
+            <div>
+              <div></div>
+            </div>
+          </div>
+          <div>
+            <label>Softwareentwicklung</label>
+            <div>
+              <div></div>
+            </div>
+          </div>
+          <div>
+            <label>Graphic design</label>
+            <div>
+              <div></div>
+            </div>
+          </div>
+          <div>
+            <label>Database</label>
+            <div>
+              <div></div>
+            </div>
+          </div>
+          <div>
+            <label>Network</label>
+            <div>
+              <div></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Sprachkenntnisse -->
+      <div>
+        <h2>Sprachkenntnisse</h2>
+        <ul>
+          <li>Persisch (Muttersprache)</li>
+          <li>Deutsch (Level B2)</li>
+          <li>Englisch (Level B1)</li>
+        </ul>
+      </div>
+
+      <!-- Hobbys -->
+      <div>
+        <h2>Hobbys</h2>
+        <div>
+          <span>🚗</span>
+          <span>🎥</span>
+          <span>🎵</span>
+          <span>💻</span>
+          <span>🖥️</span>
+          <span>🎮</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Rechte Spalte -->
+    <div>
+
+      <!-- Esmaeil Mirzaei -->
+      <div>
+        <div>
+          <div>
+            <h1>Esmaeil Mirzaei</h1>
+            <p>Software & Web Developer</p>
+          </div>
+          <div>
+            <a href="Lebenslauf.pdf" target="_blank" rel="noopener noreferrer">show PDF</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Beruflicher Werdegang -->
+      <div>
+        <h2>Beruflicher Werdegang</h2>
+        <ul>
+          <li>
+            <span>11/2021 - 01/2022:</span>
+            <span>Fahrer, Hermes</span>
+          </li>
+          <li>
+            <span>07/2020 - 07/2021:</span>
+            <span>Elektrohelfer, Torsten Zelk GmbH</span>
+          </li>
+          <li>
+            <span>01/2020 - 06/2020:</span>
+            <span>Rezeptionist, Novum Hospitality</span>
+          </li>
+          <li>
+            <span>02/2013 - 06/2015:</span>
+            <span>Kundenservice, Kheirabadi Computerservice</span>
+          </li>
+          <li>
+            <span>04/2009 - 12/2012:</span>
+            <span>Technischer Helfer, Morghparvar Geflügelfarm</span>
+          </li>
+          <li>
+            <span>04/2006 - 03/2009:</span>
+            <span>Techniker, Soltani Landwirtschaftsbetrieb</span>
+          </li>
+        </ul>
+      </div>
+
+      <!-- Weiterbildungen & Praktika -->
+      <div>
+        <h2>Weiterbildungen & Praktika</h2>
+        <ul>
+          <li>
+            <span>02.2024 - 01/2025:</span>
+            <span>Fachinformatiker Anwendungsentwicklung, BBQ Hamburg</span>
+          </li>
+          <li>
+            <span>02.2023 - 01/2024:</span>
+            <span>Fachinformatiker Anwendungsentwicklung, Quix GmbH</span>
+          </li>
+          <li>
+            <span>02.2022 - 01/2023:</span>
+            <span>Fachinformatiker Anwendungsentwicklung, BBQ Hamburg</span>
+          </li>
+          <li>
+            <span>02/2019 - 11/2019:</span>
+            <span>EQ-Praktikum, MAXEDV Hamburg</span>
+          </li>
+          <li>
+            <span>04/2017 - 07/2017:</span>
+            <span>Integrationskurs B2, Agentur der Wirtschaft</span>
+          </li>
+          <li>
+            <span>06/2016 - 12/2016:</span>
+            <span>Integrationskurs B1, IBH Hamburg</span>
+          </li>
+        </ul>
+      </div>
+
+      <!-- Weiterbildungen & Praktika -->
+      <div>
+        <h2>Bildungsweg</h2>
+        <ul>
+          <li>
+            <span>09/2014 - 06/2015:</span>
+            <span>Informationstechnologie, Payam Noor Uni Arak (Arak, Iran)</span>
+          </li>
+          <li>
+            <span>09/2013 - 06/2014:</span>
+            <span>Mathematik & Physik, Doktor Hesabi College (Arak, Iran)</span>
+          </li>
+          <li>
+            <span>09/2010 - 06/2013:</span>
+            <span>Parsian Gymnasium, Allgemeine Hochschulreife (Arak, Iran)</span>
+          </li>
+          <li>
+            <span>09/1999 - 06/2010:</span>
+            <span>Vahdat Aman-Abad Realschule (Arak, Iran)</span>
+          </li>
+        </ul>
+      </div>
+    </div>
+    </div>
+  </section>
+
+  <!-- Contacts -->
+  <section id="contact">
+    <div class="containers">
+        <h2>Kontaktformular</h2>
+        <form action="https://formsubmit.co/essiman12@yahoo.com" method="POST">
+          <div>
+            <label>Name</label>
+            <input type="text" name="name" required>
+          </div>
+          <div>
+            <label>E-Mail</label>
+            <input type="email" name="email" required>
+          </div>
+          <div>
+            <label>Nachricht</label>
+            <textarea name="message" rows="4" required></textarea>
+          </div>
+          <input type="hidden" name="_next" value="https://mirzaeiesmaeil.github.io/mirzaeiesmaeil/">
+          <button type="submit">Senden</button>
+        </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    © 2025 Esmaeil - Alle Rechte vorbehalten.
+  </footer>
+</body>
+<script>
+  window.addEventListener('load', function() {
+    if (window.location.hash) {
+      history.replaceState(null, null, window.location.pathname);
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    }
+  });
+</script>
+</html>
