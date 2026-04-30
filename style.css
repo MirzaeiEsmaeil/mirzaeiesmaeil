@@ -265,7 +265,7 @@ header.scrolled {
     font-size: 0.9rem;
     color: #aaa;
 }
-
+/* 
 .newsletter-form {
     max-width: 500px;
     position: relative;
@@ -311,7 +311,7 @@ header.scrolled {
 .newsletter-form input[type="email"]:hover {
     background-color: rgba(255, 255, 255, 0.1);
     transform: scale(1.05);
-}
+} */
 
 .hero-cta {
     display: flex;
